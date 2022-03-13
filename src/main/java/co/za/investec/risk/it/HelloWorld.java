@@ -2,6 +2,10 @@ package co.za.investec.risk.it;
 
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World!!");
+        Hello("Hello World!!");
+    }
+
+    private static void Hello(String x) {
+        System.out.println(x);
     }
 }
